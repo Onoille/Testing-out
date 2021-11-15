@@ -55,7 +55,7 @@ if ServerHop then
         end
         syn.queue_on_teleport([[
             getgenv().ServerHop = true 
-            loadstring(game:HttpGet("https://gist.githubusercontent.com/Onoille/75e2d9456de7e9fb1ee1b0f75b481812/raw/9cc07a608064148c5691b9e73f3a97d97ff926b8/SariumFruitFarm"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Onoille/Testing-out/master/SariumFruitFarm"))()
         ]])
         repeat wait()
             teleport()
